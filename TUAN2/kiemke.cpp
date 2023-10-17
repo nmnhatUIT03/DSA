@@ -14,7 +14,7 @@ int partition(vector<string>& arr, int low, int high) {
             swap(arr[i], arr[j]);
         }
     }
-
+//     cout << "i = " << i << endl;
     swap(arr[i + 1], arr[high]);
     return (i + 1);
 }
